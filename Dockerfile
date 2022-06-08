@@ -1,4 +1,4 @@
-FROM python:2.7-slim
+FROM python:3.9-slim
 WORKDIR /app
 ADD . /app
 RUN pip install --trusted-host pypi.python.org Flask Redis
